@@ -1,6 +1,3 @@
-require 'rubygems'
-require 'selenium-webdriver'
-
 driver = Selenium::WebDriver.for :chrome
 
 Given("We navigate to the home page") do
