@@ -4,11 +4,11 @@ Given("We navigate to the home page") do
   driver.navigate.to 'http://ec2-52-15-34-101.us-east-2.compute.amazonaws.com/users/sign_in'
 end
 
-Then("We enter email") do
+And("We enter email") do
   driver.find_element(:id, 'user_email').send_keys("abhishek.kanojia+1@vinsol.com")
 end
 
-Then("We enter password") do
+And("We enter password") do
   driver.find_element(:id, 'user_password').send_keys("1111111")
 end
 
